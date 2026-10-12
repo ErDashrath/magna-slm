@@ -1,0 +1,49 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build output
+build/
+dist/
+*.whl
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Downloaded model weights and external engines
+models/
+third_party/
+*.safetensors
+*.gguf
+*.onnx
+*.ckpt
+*.pt
+*.pth
+
+# Audio generated during local testing
+*.wav
+*.mp3
+*.flac
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
