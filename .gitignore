@@ -29,7 +29,6 @@ data/
 
 # Downloaded model weights and external engines
 models/
-third_party/
 *.safetensors
 *.gguf
 *.onnx
